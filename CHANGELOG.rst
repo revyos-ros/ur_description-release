@@ -2,6 +2,20 @@
 Changelog for package ur_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1.7 (2024-09-10)
+------------------
+* Fix masses of robot links (backport of `#187 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/187>`_)
+* Contributors: Felix Exner
+
+2.1.6 (2024-08-09)
+------------------
+* Fixed typo in README.md (`#176 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/176>`_)
+* Added dynamics tag when using mock_components/GenericSystem (backport of `#175 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/175>`_)
+* Auto-update pre-commit hooks (`#171 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/171>`_) (`#172 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/172>`_)
+* Remove ros2_control limit params (`#168 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/168>`_)
+* Add Jazzy to the README (`#163 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/163>`_)
+* Contributors: Filippo Bosi, Niccolo, Felix Exner
+
 2.1.5 (2024-04-25)
 ------------------
 * Fix multi-line strings in DeclareLaunchArgument ( backport of `#140 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/140>`_) (`#153 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/153>`_)
