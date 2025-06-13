@@ -1,8 +1,22 @@
+:github_url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/blob/rolling/doc/index.rst
+
+.. _ur_description:
+
 ur_description
 ==============
 
 This package contains the kinematic and visual description of Universal Robots manipulators for ROS
 2.
+
+.. toctree::
+   :maxdepth: 4
+   :caption: Contents:
+
+   robot_frames
+
+.. contents::
+   :depth: 2
+   :local:
 
 Structure of the repository
 ---------------------------
