@@ -2,6 +2,37 @@
 Changelog for package ur_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.0.0 (2025-05-14)
+------------------
+* Add support for UR15 (`#290 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/290>`_)
+* Add documentation about the different base and base_link frames (`#286 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/286>`_)
+* [BREAKING] changes for Kilted (`#280 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/280>`_)
+* Branch jazzy (`#284 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/284>`_)
+* Contributors: Felix Exner
+
+3.1.1 (2025-05-05)
+------------------
+* Add kilted (`#279 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/279>`_)
+* Update ur3e's inertia values (`#276 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/276>`_)
+* Update documentation (`#277 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/277>`_)
+* Contributors: Felix Exner
+
+3.1.0 (2025-04-02)
+------------------
+* Update inertia matrix for UR3e and UR5e from measurements (`#256 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/256>`_)
+* Auto-update pre-commit hooks (`#268 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/268>`_)
+* Add support for UR7e and UR12e (`#266 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/266>`_)
+* Update README.md (`#264 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/264>`_)
+* Contributors: Chalongrath Pholsiri, Felix Exner, Michael Behrens, github-actions[bot]
+
+3.0.2 (2025-03-17)
+------------------
+* Fix UR3 mesh positioning (`#258 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/258>`_)
+* Auto-update pre-commit hooks (`#254 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/254>`_)
+* Auto-update pre-commit hooks (`#252 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/252>`_)
+* Auto-update pre-commit hooks (`#249 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/249>`_)
+* Contributors: Felix Exner, github-actions[bot]
+
 3.0.1 (2025-01-23)
 ------------------
 * Fix ur20 upperarm texture (`#244 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/244>`_)
@@ -189,7 +220,7 @@ Changelog for package ur_description
   Joint limits for the limited version could be set using arguments for the UR10
   but not for the UR3 and UR5. Same lower and upper limit arguments are added to
   the UR3 and UR5 xacro macros.
-* Fix elbow joint limits (`#268 <https://github.com//ros-industrial/universal_robot/issues/268>`_)
+* Fix elbow joint limits (`ros1#268 <https://github.com//ros-industrial/universal_robot/issues/268>`_)
 * Remove warning 'redefining global property: pi' (Jade+) (`#315 <https://github.com//ros-industrial/universal_robot/issues/315>`_)
 * Contributors: Beatriz Leon, Dave Coleman, Felix Messmer, Miguel Prada
 
