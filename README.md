@@ -1,3 +1,26 @@
+## ur_description (jazzy) - 4.0.0-3
+
+The packages in the `ur_description` repository were released into the `jazzy` distro by running `/root/venv/bin/bloom-release -r jazzy ur_description --override-release-repository-push-url git@github.com:revyos-ros/ur_description-release.git` on `Mon, 23 Jun 2025 06:20:40 -0000`
+
+The `ur_description` package was released.
+
+Version of package(s) in repository `ur_description`:
+
+- upstream repository: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
+- release repository: https://github.com/revyos-ros/ur_description-release.git
+- rosdistro version: `3.2.0-1`
+- old version: `4.0.0-2`
+- new version: `4.0.0-3`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## ur_description (jazzy) - 4.0.0-2
 
 The packages in the `ur_description` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy ur_description --override-release-repository-push-url git@github.com:revyos-ros/ur_description-release.git` on `Fri, 13 Jun 2025 06:10:57 -0000`
